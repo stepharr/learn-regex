@@ -19,18 +19,18 @@
 
 ## What is Regular Expression?
 
-> Regular expression is a group of characters or symbols which is used to find a specific pattern from a text.
+> Regular expression is a group of characters or symbols which are used to find a specific pattern from a text.
 
 A regular expression is a pattern that is matched against a subject string from
 left to right. The word "Regular expression" is a mouthful, you will usually
-find the term abbreviated as "regex" or "regexp". Regular expression is used for
-replacing a text within a string, validating form, extract a substring from a
+find the term abbreviated as "regex" or "regexp". A regular expression is used for
+replacing a text within a string, validating a form, extracting a substring from a
 string based upon a pattern match, and so much more.
 
 Imagine you are writing an application and you want to set the rules for when a
 user chooses their username. We want to allow the username to contain letters,
 numbers, underscores and hyphens. We also want to limit the number of characters
-in username so it does not look ugly. We use the following regular expression to
+in the username so it does not look ugly. We use the following regular expression to
 validate a username:
 
 <br/><br/>
@@ -38,7 +38,7 @@ validate a username:
   <img src="./img/regexp-en.png" alt="Regular expression">
 </p>
 
-Above regular expression can accept the strings `john_doe`, `jo-hn_doe` and
+The above regular expression can accept the strings `john_doe`, `jo-hn_doe` and
 `john12_as`. It does not match `Jo` because that string contains uppercase
 letter and also it is too short.
 
